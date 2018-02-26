@@ -12,7 +12,11 @@ public class TrainSystem {
 	private TrainController controller = new TrainControllerImpl();
 	private TrainUser user = new TrainUserImpl(controller);
 	private TrainSensor sensor = new TrainSensorImpl(controller, user);
-	private String edit = new String = "rereedit"; //I was here from another branch
+
+
+
+	private String edit = new String = "reedit"; //I was here
+
 
 	public TrainController getController() {
 		return controller;
@@ -21,7 +25,6 @@ public class TrainSystem {
 	public TrainSensor getSensor() {
 		return sensor;
 	}
-
 	public TrainUser getUser() {
 		return user;
 	}
