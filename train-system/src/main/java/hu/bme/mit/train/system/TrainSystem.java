@@ -15,7 +15,7 @@ public class TrainSystem {
 
 
 
-	private String edit = new String = "reedit"; //I was here
+	private String edit = new String("edit"); //I was here
 
 
 	public TrainController getController() {
