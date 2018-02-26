@@ -12,7 +12,7 @@ public class TrainSystem {
 	private TrainController controller = new TrainControllerImpl();
 	private TrainUser user = new TrainUserImpl(controller);
 	private TrainSensor sensor = new TrainSensorImpl(controller, user);
-	private String edit = new String = "edit";
+	private String edit = new String = "rereedit"; //I was here from another branch
 
 	public TrainController getController() {
 		return controller;
