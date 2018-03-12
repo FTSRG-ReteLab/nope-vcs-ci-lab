@@ -2,7 +2,6 @@ package hu.bme.mit.train.system;
 
 import java.util.Timer;
 import java.util.TimerTask;
-
 import hu.bme.mit.train.controller.TrainControllerImpl;
 import hu.bme.mit.train.interfaces.TrainController;
 import hu.bme.mit.train.interfaces.TrainSensor;
