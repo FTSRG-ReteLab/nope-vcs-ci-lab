@@ -18,9 +18,6 @@ public class TrainSystem {
 
 
 
-	private String edit = new String("edit"); //I was here
-
-
 	public TrainController getController() {
 		return controller;
 	}
